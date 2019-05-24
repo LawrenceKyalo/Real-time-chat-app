@@ -9,4 +9,5 @@ const form = document.querySelector("form");
         addMessage(username + ": " + input.value);
 
         input.value = "";
-        
+        return false;
+    
