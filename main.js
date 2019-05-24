@@ -16,5 +16,6 @@ const form = document.querySelector("form");
 
     function addMessage(message) {
         const li = document.createElement("li");
+        li.innerHTML = message;
         
     }
