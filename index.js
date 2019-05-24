@@ -13,5 +13,7 @@
 
 io.on("connection", function(socket) {
 
-        
+        socket.on("user_join", function(data) {
+            
+    	});
     });
