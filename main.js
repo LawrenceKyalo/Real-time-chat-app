@@ -18,5 +18,5 @@ const form = document.querySelector("form");
         const li = document.createElement("li");
         li.innerHTML = message;
         messages.appendChild(li);
-        
+        window.scrollTo(0, document.body.scrollHeight);
     }
