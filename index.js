@@ -1,4 +1,5 @@
-const app = require("express")();
+	const io = require("socket.io")(http);
+	const app = require("express")();
     const http = require("http").Server(app);
     const port = process.env.PORT || 3000;
 
