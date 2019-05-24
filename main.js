@@ -3,4 +3,5 @@ const form = document.querySelector("form");
     const messages = document.querySelector(".messages");
     const username = prompt("Please enter a username: ", "");
 
-    
+    form.addEventListener("submit", function(event) {
+        
