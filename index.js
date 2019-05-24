@@ -10,3 +10,8 @@
     http.listen(port, function() {
         console.log("Listening on *:" + port);
     });
+
+io.on("connection", function(socket) {
+
+        
+    });
