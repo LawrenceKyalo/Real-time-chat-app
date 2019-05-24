@@ -10,4 +10,6 @@ const form = document.querySelector("form");
 
         input.value = "";
         return false;
+    }, false);
+
     
