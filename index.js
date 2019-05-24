@@ -19,7 +19,9 @@ io.on("connection", function(socket) {
         });
 
         socket.on("chat_message", function(data) {
-            
+            data.username = this.username;
+            socket.broadcast.emit("chat_message", data);
+        });
 
         socket.on("disconnect", function(data) {
             socket.broadcast.emit("user_leave", this.username);
