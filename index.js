@@ -6,4 +6,5 @@ const app = require("express")();
         res.sendFile(__dirname + "/index.html");
     });
 
+    http.listen(port, function() {
     
