@@ -4,4 +4,6 @@ const form = document.querySelector("form");
     const username = prompt("Please enter a username: ", "");
 
     form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
         
