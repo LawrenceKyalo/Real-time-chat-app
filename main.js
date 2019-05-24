@@ -15,5 +15,6 @@ const form = document.querySelector("form");
     addMessage("You have joined the chat as '" + username  + "'.");
 
     function addMessage(message) {
+        const li = document.createElement("li");
         
     }
