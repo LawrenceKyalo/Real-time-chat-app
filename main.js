@@ -12,4 +12,6 @@ const form = document.querySelector("form");
         return false;
     }, false);
 
+    addMessage("You have joined the chat as '" + username  + "'.");
+
     
