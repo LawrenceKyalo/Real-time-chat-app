@@ -14,6 +14,8 @@
 io.on("connection", function(socket) {
 
         socket.on("user_join", function(data) {
+            this.username = data;
             
+            socket.broadcast.emit("user_leave", this.username);
     	});
     });
